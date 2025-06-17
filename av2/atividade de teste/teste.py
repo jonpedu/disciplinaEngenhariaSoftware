@@ -18,3 +18,19 @@ def conversorTemperatura(opcao1, graus):
 
 import doctest
 doctest.testmod()
+
+
+# --- Código para uso interativo ---
+print("Conversor de Temperatura")
+print("1 - Celsius para Fahrenheit")
+print("2 - Fahrenheit para Celsius")
+opcao = int(input("Escolha a opção (1 ou 2): "))
+graus = float(input("Digite o valor da temperatura: "))
+resultado = conversorTemperatura(opcao, graus)
+if resultado is not None:
+    if opcao == 1:
+        print(f"\nResultado: {resultado} graus Fahrenheit\n")
+    elif opcao == 2:
+        print(f"\nResultado: {resultado} graus Celsius\n")
+else:
+    print("Opção inválida. Escolha 1 ou 2.")
