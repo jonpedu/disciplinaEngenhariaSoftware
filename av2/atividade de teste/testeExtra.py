@@ -10,7 +10,7 @@ def calcularMulta(velocidade):
     320.0
     >>> calcularMulta(-5)
     'Velocidade inválida'
-    >>> calcularMulta("rápido")cls
+    >>> calcularMulta("rápido")
     'Velocidade inválida'
     """
     try:
