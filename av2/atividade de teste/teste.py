@@ -1,3 +1,9 @@
+""" Atividade feita em dupla
+    Integrantes:
+    - Nome: João Pedro (2022011087) 
+    - Nome: Cauã Barros (20240045292)
+"""
+
 def conversorTemperatura(opcao1, graus):
     """
     >>> conversorTemperatura(1, 0)
